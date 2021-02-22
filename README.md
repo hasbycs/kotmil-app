@@ -1,4 +1,4 @@
-URL : https://603321d1b2938b7316847462--romantic-snyder-0b559f.netlify.app
+URL : https://panghegar-apps.netlify.app
 
 # panghegar-apps
 
