@@ -1,6 +1,4 @@
-URL : https://panghegar-apps.netlify.app
-
-# panghegar-apps
+# Kotmil-app
 
 ## Build Setup
 
