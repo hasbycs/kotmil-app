@@ -5,15 +5,15 @@
         class="flex items-center"
       >
         <nuxt-link to="/">
-          <img class="block h-10 mx-auto mr-4" src="/icon.png" alt>
+          <img class="block h-10 mx-auto mr-4" src="/logo-milkot.png" alt>
         </nuxt-link>
         <nuxt-link to="/">
           <div class="text-left">
             <p class="text-base">
-              Data Warga Yang Membutuhkan Bantuan
+              Millenial Koto-tuo
             </p>
             <p class="text-sm text-gray-700">
-              Komplek Panghegar
+              Nagari Simarasok
             </p>
           </div>
         </nuxt-link>
@@ -72,8 +72,20 @@ export default {
         faBell
       },
       menus: [
-        { label: 'Home', exact: true },
-        { label: 'Kontak' }
+        { to: '/', label: 'Home', exact: true },
+        {
+          to: '#',
+          label: 'Data',
+          children: [
+            { to: '/a', label: 'Statisik' },
+            { to: '/b', label: 'Sebaran Kasus' },
+            { to: '/c', label: 'Sebaran Faskes' }
+          ]
+        },
+        { to: '/d', label: 'Berita' },
+        { to: '/e', label: 'FAQ' },
+        { to: '/f', label: 'Kontak' },
+        { to: '/g', label: 'Donasi' }
       ]
     }
   },

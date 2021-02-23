@@ -28,7 +28,7 @@
         >
           <FontAwesomeIcon :icon="icon.faBars" size="lg" class="text-gray-600 hover:text-green-700" />
         </a>
-        <nuxt-link tag="img" to="/" class="flex-none block h-8 sm:h-10 mx-auto mr-4" src="/icon.png" alt />
+        <nuxt-link tag="img" to="/" class="flex-none block h-8 sm:h-10 mx-auto mr-4" src="/logo-milkot.png" alt />
         <nuxt-link to="/" tag="div" class="text-left">
           <p class="text-base">
             Data Warga Yang Membutuhkan Bantuan

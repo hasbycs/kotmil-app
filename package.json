@@ -19,7 +19,9 @@
     "node-sass": "^4.13.1",
     "nuxt": "^2.14.12",
     "sass-loader": "^10.1.1",
-    "sweetalert2": "^10.15.5"
+    "sweetalert2": "^10.15.5",
+    "vue-carousel": "^0.18.0",
+    "vue-content-loader": "^0.2.3"
   },
   "devDependencies": {
     "@fortawesome/free-brands-svg-icons": "^5.12.1",
