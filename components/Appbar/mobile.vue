@@ -31,10 +31,10 @@
         <nuxt-link tag="img" to="/" class="flex-none block h-8 sm:h-10 mx-auto mr-4" src="/logo-milkot.png" alt />
         <nuxt-link to="/" tag="div" class="text-left">
           <p class="text-base">
-            Data Warga Yang Membutuhkan Bantuan
+            Millenial Koto-tuo
           </p>
           <p class="text-sm text-gray-700">
-            Komplek Panghegar
+            Nagari Simarasok
           </p>
         </nuxt-link>
       </div>
