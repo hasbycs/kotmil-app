@@ -1,35 +1,13 @@
-
 <template>
   <div class="container mx-auto">
     <section class="m-4 md:m-8">
       <div class="flex flex-col lg:flex-row lg:items-stretch">
-        <div class="w-full mb-6 lg:w-1/2 lg:mr-6 lg:mb-0">
+        <div class="w-full mb-6 lg:mr-6 lg:mb-0">
           <div class="relative container-with-ratio rounded-lg overflow-hidden shadow-md">
             <ImageCarousel
               class="absolute inset-0 w-full h-full"
               :items="banners"
             />
-          </div>
-        </div>
-        <div class="w-full lg:w-1/2">
-          <div class="relative container-with-ratio container-with-ratio--lg">
-            <div class="static lg:absolute lg:inset-0 w-full h-full top-grid">
-              <!-- <CallCard class="top-grid__call-card" title="Call Center" subtitle="Nomor Darurat" number="119" />
-              <CallCard
-                class="top-grid__call-card"
-                title="Hotline Pikobar"
-                subtitle="Chat WA seputar COVID-19"
-                number="Klik untuk chat"
-                href="https://s.id/ChatbotPikobar"
-                :icon="require('@fortawesome/free-brands-svg-icons').faWhatsapp"
-                icon-class="text-4xl"
-              />
-              <div
-                class="top-grid__socmed rounded-lg"
-              >
-                <PikobarSocmed />
-              </div> -->
-            </div>
           </div>
         </div>
       </div>
